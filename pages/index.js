@@ -1,4 +1,4 @@
-import { API_URL } from "../config";
+import { API_URL } from "../config/index";
 import Layout from "../components/Layout";
 import EventItem from "../Components/EventItem";
 

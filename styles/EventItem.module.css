@@ -15,3 +15,11 @@
 .info {
   flex: 2.5;
 }
+
+.link {
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
