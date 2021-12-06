@@ -16,7 +16,9 @@ export default function Layout({ title, keywords, description, children }) {
       </Head>
       <Header />
       {router.pathname === "/" && <ShowCase />}
+      {/* children is given to us by next js thereby whenever we use children in a component, it will make all the files avaliable to children when using the layout component in each file  */}
       <div className={styles.container}>{children}</div>
+      {/* children is a special Name that cannot be edited */}
       <Footer />
     </div>
   );
